@@ -1,0 +1,264 @@
+.products {
+  margin: 0px 0px 40px 0px;
+}
+
+.products-body {
+  @include flexbox();
+}
+.products__column {
+  flex: 0 0 25%;
+  margin: 0px 0px 40px 0px;
+}
+.products-item {
+  @include flexbox();
+  flex-direction: column;
+  height: 100%;
+}
+
+.products-item__img1 {
+  background: url(/img/original.jpg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  height: 225px;
+}
+
+.products-item__img2 {
+  background: url(/img/1582112769_44-p-temnokozhie-devushki-51.jpg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  height: 225px;
+}
+
+.products-item__img3 {
+  background: url(/img/1582112806_42-p-temnokozhie-devushki-48.jpg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  height: 225px;
+}
+
+.products-item__img4 {
+  background: url(/img/1585910397_24-p-krasivie-negrityanki-37.jpg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  height: 225px;
+}
+
+.products-item__img img {
+  display: block;
+  width: 220px;
+  height: 225px;
+  margin: 0px 0px 25px 0px;
+}
+.products-item__title {
+  display: block;
+  padding: 0px 10px 0px 0px;
+  max-width: 185px;
+  font-size: 25px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+  text-transform: uppercase;
+  list-style: 1.5px;
+  color: #000;
+  margin: 0px 0px 30px 0px;
+}
+.products-item__text {
+  flex: 1 1 auto;
+  padding: 0px 10px 0px 0px;
+  font-size: 15px;
+  line-height: 25px;
+  margin: 0px 0px 25px 0px;
+  max-width: 185px;
+}
+.products-item__btn {
+  margin: 0px 0px 29px 0px;
+}
+.products-item__link {
+  font-family: "Courier New", Courier, monospace;
+  text-transform: uppercase;
+  color: #000;
+  text-decoration: underline;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+}
+
+.why {
+}
+.why-top {
+  @include flexbox();
+  background-color: #000;
+}
+.why-top__column {
+  flex: 0 0 50%;
+}
+.why-top__text {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+  text-align: right;
+  padding: 55px 15px 55px 0px;
+}
+.why-top__img {
+  height: 100%;
+  background-image: url(/img/d9c6c689340e38644a86b0a2323abb4d.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.why-body {
+  padding: 50px 0 0 0;
+}
+.why-body__column {
+  flex: 0 0 50%;
+  margin: 0px 0px 50px 0px;
+}
+.why-body-item {
+  @include flexbox();
+}
+
+.why-body-item__icon img {
+  @include flexbox();
+  height: 100%;
+  flex: 0 0 100px;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 10px 0px 0px;
+}
+
+.why-body-item-body {
+  flex: 1 1 100%;
+  padding: 0px 0px 0px 11px;
+  @include flexbox();
+  flex-direction: column;
+}
+.why-body-item-body__title {
+  font-size: 25px;
+  flex: 1 1 auto;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 700;
+  font-family: "Courier New", Courier, monospace;
+  padding: 0px 0px 30px 0px;
+}
+.why-body-item-body__text {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  max-width: 300px;
+}
+
+.why-body-row {
+  @include flexbox();
+  flex-wrap: wrap;
+}
+
+.contacts {
+  padding: 80px 0px 0px 0px;
+}
+
+.contacts-top {
+}
+.container {
+}
+.contacts__title {
+  font-family: "Courier New", Courier, monospace;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 50px;
+  letter-spacing: 5px;
+  margin: 0px 0px 30px 0px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+.contacts-body {
+  @include flexbox();
+  flex-wrap: wrap;
+}
+.contacts-body__column {
+  flex: 0 0 50%;
+  margin: 0px 0px 20px 0px;
+}
+.contacts-body__item {
+  font-size: 15px;
+  color: #000;
+  padding: 0px 0px 0px 35px;
+  display: inline-block;
+  line-height: 27px;
+}
+.contacts-body__item--1 {
+  background-image: url(/img/icons/icons8-marker-b-24.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.contacts-body__item--2 {
+  background-image: url(/img/icons/icons8-mail-24.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.contacts-body__item--3 {
+  background-image: url(/img/icons/icons8-phone-24.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.contacts-social {
+  @include flexbox();
+}
+.contacts-social__item {
+  margin-right: 30px;
+  &:last-child {
+    margin: 0px 0px 0px 0px;
+  }
+}
+
+.contacts-content {
+  @include flexbox();
+  background-color: #000;
+}
+.contacts-content__column {
+  flex: 0 0 50%;
+}
+.contacts-content__map {
+  height: 100%;
+  background-image: url(/img/Maps_Widgets_2107211_150715.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.contacts-content-form {
+  padding: 55px 60px;
+}
+.contacts-content-form__title {
+  font-family: "Courier New", Courier, monospace;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 25px;
+  letter-spacing: 5px;
+  margin: 0px 0px 30px 0px;
+  color: #fff;
+}
+.contacts-content-form-body {
+  max-width: 375px;
+}
+.contacts-content-form-line {
+  margin: 0px 0px 25px 0px;
+}
+
+.contacts-content-form-button {
+}
+.contacts-content-form__btn {
+  text-transform: uppercase;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  font-size: 16px;
+}
